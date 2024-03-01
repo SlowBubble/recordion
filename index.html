@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Recordion</title>
+    <!-- <link rel="stylesheet" href="./src/main.css"> -->
+    
+    <!-- Only used for generating PNG. Update jsToHtmlBuild.js when this changes. -->
+    <script src="./lib/abcjs-basic.js" type="text/javascript"></script>
+    <script src="./lib/canvg.js" type="text/javascript"></script>
+    <script src="./src/esModules/sheet-melody/nearley.js"></script>
+    <script src="./src/esModules/sheet-melody/melodicCell.js"></script>
+    <script src="./src/esModules/chord/chordParser.js"></script>
+
+  </head>
+  <body>
+    <div id="main">
+      Loading ...
+    </div>
+    <div id='tmp-sheet-container'></div>
+    <!-- <img id='tmp-sheet-img'></img> -->
+    <canvas id="tmp-sheet-canvas"></canvas>
+    <script src='./build/webMain.js'></script>
+  </body>
+</html>
